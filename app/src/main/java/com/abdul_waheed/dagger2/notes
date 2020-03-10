@@ -1,0 +1,6 @@
+What is dependency?
+If a class 'User' has an object of a class 'Address' that means User depends on Address. That further means User depends on Address and
+Address is a dependency of User. It is a design pattern.
+For example:
+===========
+Recycler view needs an adapter to create single rows so Adapter is a dependency of RecyclerView.
