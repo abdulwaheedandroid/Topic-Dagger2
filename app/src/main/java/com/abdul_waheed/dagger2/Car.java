@@ -4,6 +4,7 @@ import javax.inject.Inject;
 
 public class Car {
 
+    private static final String TAG = "Car";
     private Wheel wheel;
     private Engine engine;
 
